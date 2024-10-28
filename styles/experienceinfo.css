@@ -1,0 +1,94 @@
+.experience-info{
+    display: flex;
+    flex-direction: column;
+    width: 411px;
+}
+
+.experience-info-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-item{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    color:#000;
+}
+
+.experience-item.selected {
+    color:#fff;
+    background: #28D979;
+}
+
+.experience-item-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience-item-period{
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.experience-item-label {
+    color: #DDF163;
+    line-height: 155%;
+    font-size: 8px;
+    padding: 2px 6px;
+    border-radius: 59px;
+    background-color: #7E731266;
+}
+
+.experience-item-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.experience-item-job{
+    display: flex;
+    flex-direction: column;
+    width: 124px;
+}
+
+.experience-item-job-specialty{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.experience-item-job-bottom{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #EBF9F2;
+}
+
+.special {
+    color: #3F3D3D;
+}
+
+
+
+ .experience-item-job-name, .experience-item-job-time{
+    font-size: 8px;
+    line-height: 12px;
+
+ }
+
+ .experience-info-responsibility-list{
+    width: 239px;
+    margin: 0;
+ }
+
+ .experience-info-responsibility-list-item{
+    font-size: 8px;
+    line-height: 150%;
+ }
